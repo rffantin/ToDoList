@@ -1,6 +1,6 @@
 import "./app.css";
 import React, { useState } from "react";
-import { Title } from "./styles";
+import { Container, Title } from "./styles";
 
 export default function App() {
   const [toDos, setToDos] = useState([]);
@@ -57,7 +57,7 @@ export default function App() {
   }
 
   return (
-    <div>
+    <Container>
 
       <Title>Lista de Tarefas</Title>
 
@@ -93,6 +93,6 @@ export default function App() {
           </li>
         ))}
       </ul>
-    </div>
+    </Container>
   );
 }
