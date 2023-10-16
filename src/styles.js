@@ -2,20 +2,20 @@ import styled from "styled-components";
 
 
 export const Title = styled.h1`
-    color: #aeecef;
+    color: black;
 `;
 
 export const Container = styled.div`
-    border: 3px solid #119da4;
+    border: 3px solid black;
     padding: 1em;
-    background: #6a4c93;
+    background: #80ADBF;
     border-radius: 8px;
 
     & input{        
         border-radius: 4px;
         border: 1px solid black;
-        background: #3066be;
-        color: #aeecef;
+        background: #F5F5F5;
+        color: black;
         height: 2.5em;
         margin: 8px;
         padding: 3px;
@@ -31,13 +31,13 @@ export const Container = styled.div`
         padding: 10px;
         align-items: center;
         justify-content: space-evenly;
-        color: #aeecef;
+        color: black;
         height: 2.5em;
     }
     & button{
         margin: 8px;
-        color: #2ec4b6;
-        background: #002e2c;
+        color: black;
+        background: #8988B3;
         border: 2px solid black;
     }
 `;
